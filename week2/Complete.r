@@ -1,12 +1,6 @@
 ## Always a good practice to release old data from memory
 rm(list=ls(all=TRUE))
 
-### stringr is a string processing package for R
-if(is.installed("stringr")==FALSE) 
-  install.packages("stringr",repos="http://cran.us.r-project.org")
-else
-  print("library installed.  yay!")
-# Load the libraries you need
 library(stringr)
 
 
